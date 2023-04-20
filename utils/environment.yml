@@ -1,0 +1,12 @@
+name: ada_ml_venv
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - ipykernel
