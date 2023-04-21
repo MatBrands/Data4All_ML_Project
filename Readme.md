@@ -48,7 +48,7 @@ Este projeto foi concluído usando Python e suas bibliotecas associadas, como:
 
 - [Aline Cristina De Carvalho Estanislau](https://github.com/alinecarvalhoz)
 - [André Alves Teixeira]()
-- [Eduardo Vitor G Silva]()
+- [Eduardo Vitor G Silva](https://github.com/decoteixeira)
 - [Felipe Cunha](https://github.com/felpscunha)
 - [Matheus Miranda Brandão](https://github.com/MatBrands/)
 
