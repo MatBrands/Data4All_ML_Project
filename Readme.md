@@ -6,9 +6,7 @@
 - Professores: Braian Bispo, Renato Marques & Thiago Kuma
 - Alunos: Aline Cristina De Carvalho Estanislau, André Alves Teixeira, Eduardo Vitor G Silva, Felipe Cunha & Matheus Miranda Brandão.
 
-Este projeto é uma exploração do dataset: [Dataset](...), fornecido pelo [Kaggle](https://www.kaggle.com/). O foco é explorar os dados e descobrir quaisquer insights interessantes ou padrões que possam estar presentes, afim de decidir e implementar um modelo de Machine Learning.
-
-A especificação completa do projeto pode ser encontrada em: [Projeto Final](https://github.com/MatBrands/Data4All_ML_Project).
+Este projeto é uma exploração do dataset: [Employee Attrition](https://aiplanet.com/challenges/177/data-sprint-56-employee-attrition-177/data), fornecido pelo [AI Planet](https://aiplanet.com/). O foco é explorar os dados e descobrir quaisquer insights interessantes ou padrões que possam estar presentes, afim de decidir e implementar um modelo de Machine Learning.
 
 ## Conteúdo
 
@@ -22,7 +20,74 @@ A especificação completa do projeto pode ser encontrada em: [Projeto Final](ht
 - Contribuições
 
 # Descrição dos Dados
+Metadados extraídos do site oficial:
 
+Este dataset apresenta um questionário envolvendo funcionários da IBM, indicando se existe uma rotatividade ou não. Os dados possuem aproximadamente 1200 entradas.
+- Id
+- Age - Idade do funcionário
+- Attrition - Rotatividade
+    - 0 'No'
+    - 1 'Yes'
+- BusinessTravel - Frequência de viagem do funcionário
+- Department - Departmento de trabalho
+- DistanceFromHome - Distância da casa do funcionário até o trabalho
+- EducationField - Área de estudo do funcionário
+- EmployeeNumber - Número de identificação do funcionário
+- EnvironmentSatisfaction - Satisfação com o ambiente de trabalho
+- Gender - Gênero do funcionário
+- MartialStatus - Estado civil do funcionário
+- MonthlyIncome - Salário mensal do funcionário
+- NumCompaniesWorked - Número de empresas que o funcionário já trabalhou anteriormente
+- OverTime - Se o funcionário trabalha horas extras ou não
+- PercentSalaryHike - Porcentagem de aumento salarial
+- StockOptionLevel - Nível de opções de ações
+- TotalWorkingYears - Total de anos trabalhados
+- TrainingTimesLastYear - Número de treinamentos realizados no último ano
+- YearsAtCompany - Número de anos trabalhados na empresa
+- YearsInCurrentRole - Número de anos no cargo atual
+- YearsSinceLastPromotion - Número de anos desde a última promoção
+- YearsWithCurrManager - Número de anos com o atual gerente
+- Education
+    - 1 'Below College'
+    - 2 'College'
+    - 3 'Bachelor'
+    - 4 'Master'
+    - 5 'Doctor'
+- EnvironmentSatisfaction
+    - 1 'Low'
+    - 2 'Medium'
+    - 3 'High'
+    - 4 'Very High'
+- JobInvolvement
+    - 1 'Low'
+    - 2 'Medium'
+    - 3 'High'
+    - 4 'Very High'
+- JobSatisfaction
+    - 1 'Low'
+    - 2 'Medium'
+    - 3 'High'
+    - 4 'Very High'
+- PerformanceRating
+    - 1 'Low'
+    - 2 'Good'
+    - 3 'Excellent'
+    - 4 'Outstanding'
+- Behaviour
+    - 1 'Good'
+    - 2 'Bad'
+    - 3 'Not Rated'
+- CommunicationSkill
+    - 1 'Bad'
+    - 2 'Average'
+    - 3 'Good'
+    - 4 'Better'
+    - 5 'Best'
+- StockOptionLevel
+    - 0 'No stocks'
+    - 1 'Less Stocks'
+    - 2 'Moderate Stocks'
+    - 3 'A lot of Stocks'
 
 # Objetivos
 
