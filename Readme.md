@@ -20,7 +20,7 @@ Este projeto é uma exploração do dataset: [Employee Attrition](https://aiplan
 - Contribuições
 
 # Descrição dos Dados
-Metadados extraídos do site oficial:
+> Metadados extraídos do site oficial do [AI Planet](https://aiplanet.com/).
 
 Este dataset apresenta um questionário envolvendo funcionários da IBM, indicando se existe uma rotatividade ou não. Os dados possuem aproximadamente 1200 entradas.
 - Id
