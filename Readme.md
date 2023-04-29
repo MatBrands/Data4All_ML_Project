@@ -102,11 +102,11 @@ Os objetivos deste projeto são:
 # Ferramentas Usadas
 Este projeto foi concluído usando Python e suas bibliotecas associadas, como:
 
-- NumPy,
-- Pandas,
-- Matplotlib,
-- Seaborn,
-- Scikit-learn,
+- NumPy;
+- Pandas;
+- Matplotlib;
+- Seaborn;
+- Scikit-learn;
 - ipykernel.
 
 # Integrantes
