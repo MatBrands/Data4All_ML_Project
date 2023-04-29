@@ -193,12 +193,16 @@ deactivate
 ├── Readme.md
 ├── main
 │   ├── datasets
-│   │   └── ...
+│   │   └── raw
+│   │   │   ├── testing_data.csv
+│   │       └── training_data.csv
 │   ├── models
 │   │   └── ...
 │   ├── notebooks
-│   │   └── ...
-│   └── raw
+│   │   ├── model.ipynb
+│   │   └── eda
+│   │       └── matheus.ipynb
+│   └── outputs
 │       └── ...
 └── utils
     ├── environment.yml
