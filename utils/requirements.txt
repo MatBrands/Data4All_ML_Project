@@ -4,3 +4,4 @@ matplotlib
 seaborn
 scikit-learn
 ipykernel
+inflection==0.5.1
