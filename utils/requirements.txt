@@ -1,7 +1,7 @@
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-ipykernel
+numpy==1.24.3
+pandas==2.0.1
+matplotlib==3.7.1
+seaborn==0.12.2
+scikit-learn==1.2.2
+ipykernel==6.22.0
 inflection==0.5.1
