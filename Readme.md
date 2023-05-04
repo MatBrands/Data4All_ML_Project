@@ -190,18 +190,29 @@ deactivate
 ```sh
 .
 ├── License
-├── Readme.md
 ├── main
 │   ├── datasets
+│   │   ├── processed
+│   │   │   └── balanced_dataset.pkl
 │   │   └── raw
-│   │   │   ├── testing_data.csv
+│   │       ├── testing_data.csv
 │   │       └── training_data.csv
 │   ├── notebooks
+│   │   ├── eda
+│   │   │   ├── aline.ipynb
+│   │   │   ├── andre.ipynb
+│   │   │   ├── felipe.ipynb
+│   │   │   └── matheus.ipynb
+│   │   ├── model
+│   │   │   ├── aline.ipynb
+│   │   │   ├── andre.ipynb
+│   │   │   ├── felipe.ipynb
+│   │   │   └── matheus.ipynb
 │   │   ├── model.ipynb
-│   │   └── eda
-│   │       └── matheus.ipynb
+│   │   └── Readme.md
 │   └── outputs
-│       └── ...
+│       └── Readme.md
+├── Readme.md
 └── utils
     ├── environment.yml
     └── requirements.txt
