@@ -68,9 +68,9 @@ Foram escolhidos três modelos em ordem de complexidade e tipo de modelo quanto 
 Será necessário montar e explicar a matriz de confusão, para assim explicar o foco das métricas:
 | Matriz de confusão | --- | Predito | Predito
 | --- | --- | --- | ---
-| --- | --- | 1 | 0
-| Real | 1 | Verdadeiro Positivo (VP) | Falso Negativo (FN)
-| Real | 0 | Falso Positivo (FP) | Verdadeiro Negativo (VN)
+| --- | --- | 0 | 1
+| Real | 0 | Verdadeiro Negativo (VN) | Falso Positivo (FP)
+| Real | 1 | Falso Negativo (FN) | Verdadeiro Positivo (VP)
 
 Erro tipo I (Falso Positivo) - Ocorre quando o modelo prevê que a classe é positiva, mas na verdade é negativa.
 
