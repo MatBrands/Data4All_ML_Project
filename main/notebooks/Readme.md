@@ -1,9 +1,9 @@
 # Estrutura do projeto
 
 ## Algoritmo de Machine Learning (Breve explicação do seu funcionamento)
-- LogisticRegression (se der tempo);
-- KNeighborsClassifier (Distâncias);
-- RandomForestClassifier (Ensamble de árvores de decisão).
+- LogisticRegression;
+- KNeighborsClassifier;
+- RandomForestClassifier.
 
 ## Utilização do Random State
 
@@ -79,6 +79,6 @@ Erro tipo II (Falso Negativo) - Ocorre quando o modelo prevê que a classe é ne
 
 ## Comparativo entre mais de um algoritmo.
 
-- LogisticRegression (se der tempo).
-- KNeighborsClassifier (Distâncias).
-- RandomForestClassifier (Ensamble de árvores de decisão).
+- LogisticRegression.
+- KNeighborsClassifier.
+- RandomForestClassifier.
