@@ -1,32 +1,44 @@
 # Estrutura do projeto
 
-## Algoritmo de Machine Learning (Breve explicação do seu funcionamento)
+## Algoritmo de Machine Learning
+
+Foram escolhidos três modelos em ordem de complexidade e tipo de modelo quanto ao modo de classificação:
+
 - LogisticRegression;
 - KNeighborsClassifier;
 - RandomForestClassifier.
 
 ## Utilização do Random State
 
-- Precisamos garantir que os resultados sejam reproduzíveis.
+- Garantia de que os resultados sejam reproduzíveis.
 
 ## Balanceamento de dataset
 
-- Realizar testes com o dataset original (desbalanceados), onde existe proporção de 84% pra não e 16% para sim;
-- Testar balanceamento através do método de bootstrap, onde tentaremos algo próximo de 60% e 40% (não e sim, respectivamente).
+- Foram realizados testes com o dataset desbalanceado, no qual existia uma proporção de 84 % para "Não" e 16 % para "Sim" quanto a variável "Attrition" que é o alvo do modelo;
+- Testes realizados:
+	- SMOTE (Synthetic Minority Over-sampling Technique)
+	E em conjunto:
+	- Random Under-Sampling with Replacement (RUS)
+	- Random Over-Sampling with Replacement (ROS)
+
+- Foi escolhida a segunda técnica para balanceamento do dataset, com proporção final de 60 % para "Não" e 40 % para "Sim".
+	- Motivo: Maior performance na generalização;
 
 ## Divisão do dataset (train / test)
 
+- Foi utilizado train_test_split da biblioteca sklearn para amostragem dos dados; 
 - 80% para treino e 20% para teste (como visto em aula).
 
 ## Técnicas de tratamento para Categóricas
 
-- Vamos usar OneHotEncoder() e LabelEncoder() para transformar as variáveis categóricas em numéricas.
+- Foi utilizado OneHotEncoder() e LabelEncoder() para transformar as variáveis categóricas em numéricas.
 
 ## Feature Scaling
 
-- LogisticRegression (Necessário);
-- KNeighborsClassifier (Necessário);
-- RandomForestClassifier (Não é necessário)
+- Foram realizados testes para os três modelos citados:
+	- LogisticRegression 
+	- KNeighborsClassifier 
+	- RandomForestClassifier 
 
 ## Feature Selection
 
@@ -39,9 +51,16 @@
 
 ## Learning Curve / Underfitting / Overfitting
 
+- Foram abordadas as três questões:
+
 - Aprendizado do modelo;
 - Overfitting (modelo aprende demais);
 - Underfitting (modelo não aprende o suficiente).
+
+- Foram realizadas curvas de aprendizado em função do número de variáveis empregadas no modelo; 
+- Otimizações nos parâmetros para diminuir a possibilidade de Overfitting; 
+- Validação Cruzada
+
 
 ## Métricas para avaliação para Classificação/Regressão
 ### Classificação
@@ -57,27 +76,46 @@ Erro tipo I (Falso Positivo) - Ocorre quando o modelo prevê que a classe é pos
 
 Erro tipo II (Falso Negativo) - Ocorre quando o modelo prevê que a classe é negativa, mas na verdade é positiva.
 
-- F1 Score, **Recall (Prioridade)**, Precision score e Acurácia.
+- F1 Score, **Recall (Prioridade)**, Precision Score e Acurácia.
 
 ## Pipeline / ColumnTransformer
 
-- Deixar mais claro a construção do modelo; 
-- Automatizar o uso do scaler (para diferentes modelos).
+- Foi utilizado para deixar mais claro a construção do modelo; 
+- Automatizar o uso do scaler para diferentes modelos.
 
 ## Otimização de Hiperparâmetros
 
-- GridSearchCV;
-- RandomizedSearchCV.
+- GridSearchCV (Logistic Regression e KNN;
+- RandomizedSearchCV (Random Forest).
 
 ## Explicação acerca dos Hiperparâmetros escolhidos
 
-- Através de pesquisas e testes, escolher os melhores hiperparâmetros para cada modelo.
+- Logistic Regression:
+	- C (Regularização);
+	- dual (formulação);
+	- fit_intercept (Definir o intercepto da reta);
+	- penalty (definir penalidades para o modelo);
+	- solver (algorítmo usado na otimização do problema);
+	- tol (tolerância ou critério de parada).
+
+- KNeighborsClassifier:
+	- n_neighbors (Número de vizinhos utilizados);
+	- metric (tipo de distância utilizada nos cálculos);
+
+- RandomForestClassifier:
+	- n_estimators (número de estimados utilizados no modelo);
+	- min_samples_split (mínimo de amostras para criar um novo nó);
+	- min_samples_leaf (número mínimo de amostras requeridas para estar em um ramo);
+	- max_depth (regula a profundida da floresta);
+	- criterion (critério para medir a qualidade da separação dos ramos);
 
 ## Cross Validation
 
-- Objetivo de validar o modelo, para que não haja overfitting.
+- Foi realizada uma validação cruzada com o objetivo de validar o modelo, para que não haja overfitting.
 
 ## Comparativo entre mais de um algoritmo.
+
+Como já discutido, foram comparados três modelos de classificação:
 
 - LogisticRegression.
 - KNeighborsClassifier.
