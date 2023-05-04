@@ -196,8 +196,6 @@ deactivate
 │   │   └── raw
 │   │   │   ├── testing_data.csv
 │   │       └── training_data.csv
-│   ├── models
-│   │   └── ...
 │   ├── notebooks
 │   │   ├── model.ipynb
 │   │   └── eda
